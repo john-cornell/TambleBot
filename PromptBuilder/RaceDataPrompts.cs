@@ -114,7 +114,7 @@ namespace TambleBot.PromptBuilder
                 " The race data is as follow: " + Environment.NewLine + raceText + Environment.NewLine +
                 "Pros and Cons: " + Environment.NewLine + prosAndCons + Environment.NewLine +
                 $"It is important that you ALWAYS Format your answer in json with the following fields: {Environment.NewLine}" +
-                "CanChoose:{bool - yes or no whether you are relatively confident that the race can be called}" +
+                "CanChoose:{bool - yes or no whether you are over 80% sure that the race can be called}" +
                 "FirstPlace: {ONLY PUT HORSE NUMBER AND NAME}" +
                 "SecondPlace: {ONLY PUT HORSE NUMBER AND NAME}" +
                 "ThirdPlace: {ONLY PUT HORSE NUMBER AND NAME}" +
